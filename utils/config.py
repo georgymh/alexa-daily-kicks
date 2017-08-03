@@ -1,7 +1,3 @@
-SITES = {
-    'KICKS_ON_FIRE': 'https://www.kicksonfire.com/app/upcoming'
-}
-
 KICKS_TABLE_NAME = 'DailyKicks'
 KICKS_METADATA_TABLE_NAME = 'DailyKicksMetadata'
 
@@ -21,5 +17,3 @@ KICKS_METADATA_PROPERTY_TYPES_FOR_DYNAMO = {
     'ReleaseDate': 'S',
     'Count': 'N'
 }
-
-KOF_MAX_PAGE_TO_VISIT_BEFORE_EXITING = 5

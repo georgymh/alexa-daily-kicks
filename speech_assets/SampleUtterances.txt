@@ -1,0 +1,4 @@
+HelloIntent my name is {firstname}
+HelloIntent hey I am {firstname}
+HelloIntent whats up I am {firstname}
+HelloIntent hey how are you
