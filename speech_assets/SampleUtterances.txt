@@ -1,4 +1,19 @@
-HelloIntent my name is {firstname}
-HelloIntent hey I am {firstname}
-HelloIntent whats up I am {firstname}
-HelloIntent hey how are you
+AskKicksIntent  tell me the {SupportedItem} for {SupportedDate}
+AskKicksIntent  what are the {SupportedItem} for {SupportedDate}
+AskKicksIntent  which are the {SupportedItem} for {SupportedDate}
+AskKicksIntent  list the {SupportedItem} for {SupportedDate}
+AskKicksIntent  {SupportedItem} for {SupportedDate}
+AskKicksIntent  mention the {SupportedItem} for {SupportedDate}
+AskKicksIntent  any {SupportedItem} for {SupportedDate}
+AskKicksIntent  what {SupportedItem} are there for {SupportedDate}
+AskKicksIntent  what {SupportedItem} for {SupportedDate}
+AskKicksIntent  which {SupportedItem} are there for {SupportedDate}
+AskKicksIntent  which {SupportedItem} for {SupportedDate}
+AskKicksIntent  do you know about the {SupportedItem} for {SupportedDate}
+AskKicksIntent  do you know of any {SupportedItem} releasing {SupportedDate}
+AskKicksIntent  what are {SupportedDate} {SupportedItem}
+
+
+// for <-> releasing <-> out <-> coming out <-> being sold
+// kicks <-> shoes <-> jordans <-> nikes <-> adidas
+// tell me <-> what are <-> which are <-> mention <-> do you know of <-> do you know about

@@ -1,11 +1,15 @@
 {
   "intents": [
     {
-      "intent": "HelloIntent",
+      "intent": "AskKicksIntent",
       "slots": [
         {
-          "name": "firstname",
-          "type": "AMAZON.US_FIRST_NAME"
+          "name": "item",
+          "type": "SupportedItem"
+        },
+        {
+          "name": "date",
+          "type": "SupportedDate"
         }
       ]
     }
