@@ -24,7 +24,7 @@ class Kicks(object):
             'ReleaseDate': self.releaseDate,
             'Description': self.description,
             'ImageUrls': [url for url in self.imageUrls],
-            'Url': set(self.url),
+            'Url': self.url,
             'Site': self.site
         }
         if utf8:
