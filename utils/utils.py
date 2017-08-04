@@ -2,6 +2,9 @@ import datetime
 import json
 import uuid
 
+def xstr(s):
+    return '' if s is None else str(s)
+
 def getTodaysDate(short: bool = False):
     date = datetime.datetime.combine(
         datetime.datetime.utcnow().date(),
