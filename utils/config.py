@@ -17,3 +17,6 @@ KICKS_METADATA_PROPERTY_TYPES_FOR_DYNAMO = {
     'ReleaseDate': 'S',
     'Count': 'N'
 }
+
+DEFAULT_ITEM_TYPE_FOR_ITEM_SLOT = 'kicks'
+DEFAULT_DATE_FOR_SLOT_SLOT = 'latest'
